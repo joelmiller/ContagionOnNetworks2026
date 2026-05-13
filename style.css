@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+
+  color: #222;
+  background-color: #ffffff;
+}
+
+/* Main content width */
+main,
+section {
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Banner */
+.hero {
+  position: relative;
+
+  height: 340px;
+
+  background-image: url("assets/banner.png");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Title overlay */
+.overlay {
+  text-align: center;
+
+  color: white;
+
+  background: rgba(0, 0, 0, 0.35);
+
+  padding: 20px 40px;
+
+  border-radius: 10px;
+}
+
+.overlay h1 {
+  margin: 0;
+
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.overlay p {
+  margin-top: 10px;
+
+  font-size: 1.3em;
+}
+
+/* Navigation bar below banner */
+nav {
+  background-color: #f5f5f5;
+
+  border-bottom: 1px solid #dddddd;
+
+  text-align: center;
+
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+nav a {
+  margin-left: 14px;
+  margin-right: 14px;
+
+  text-decoration: none;
+
+  color: #004488;
+
+  font-weight: bold;
+
+  font-size: 1rem;
+}
+
+nav a:hover {
+  color: #cc5500;
+}
+
+/* Sections */
+section {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+h2 {
+  border-bottom: 2px solid #dddddd;
+
+  padding-bottom: 6px;
+
+  margin-bottom: 18px;
+
+  color: #003366;
+}
+
+h3 {
+  color: #444444;
+}
+
+/* Speaker entries */
+.speaker {
+  margin-bottom: 28px;
+}
+
+.speaker strong {
+  font-size: 1.1rem;
+}
+
+.speaker em {
+  color: #444444;
+}
+
+/* Abstract links */
+.speaker a {
+  text-decoration: none;
+
+  color: #0066aa;
+}
+
+.speaker a:hover {
+  text-decoration: underline;
+}
+
+/* Horizontal rule styling */
+hr {
+  border: none;
+
+  border-top: 1px solid #dddddd;
+
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+/* Footer */
+footer {
+  margin-top: 60px;
+  margin-bottom: 30px;
+
+  text-align: center;
+
+  color: #777777;
+
+  font-size: 0.9rem;
+}
+
+/* Responsive layout */
+@media (max-width: 700px) {
+
+  .hero {
+    height: 240px;
+  }
+
+  .overlay h1 {
+    font-size: 2em;
+  }
+
+  .overlay p {
+    font-size: 1rem;
+  }
+
+  nav a {
+    display: inline-block;
+
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+}
